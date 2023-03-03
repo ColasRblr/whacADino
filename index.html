@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>Whac'a'dino</title>
+</head>
+<body>
+        <div class="game">
+            <img id="backgroundLandscape" src="assets/background.jpg" alt="landscape-background">
+            <header>
+                <div class="logo">WHAC A DINO<img src="assets/dino.png" alt="game-logo" width="100px"></div>
+                <div class="timer">Timer = <span id="timer">30</span></div>
+            </header>
+
+            <div class="grid"></div> 
+            <div class="gameover">
+                <img src="assets/gameover.png" alt="gameover-image">
+                <button id="playAgainBtn">PLAY AGAIN</button>;
+            </div>
+            <div class="scoreAndBtn">
+                <div class="score">
+                    <img src="assets/trophy.png" alt="trophy-image">
+                    Score = <span id="score">0</span></div>
+                <button id="startBtn">START</button>
+            </div>
+        </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
