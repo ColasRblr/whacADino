@@ -61,7 +61,7 @@ header {
     width : 30%;
     height: 30%;
     border-radius: 50%;
-    margin: 10px;
+    padding : 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,12 +72,14 @@ header {
     position: absolute;
     width :60%;
     display: block;
+    opacity: 0.9;
 }
 
 .imgDino {
     position: absolute;
-    width :30%;
-    height:70%;
+    width :40%;
+    height:100%;
+    bottom:28px;
     display: none;
 }
 
