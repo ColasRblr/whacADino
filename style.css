@@ -90,6 +90,7 @@ header {
     align-items: center;
     padding: none;
 }
+
 .score {
     font-family: 'VT323', monospace;
     font-size: 50px;
@@ -103,7 +104,7 @@ header {
     width :30%;
     height:20%;
     font-family: 'VT323', monospace;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 	display: inline-block;
 	margin:5px;
